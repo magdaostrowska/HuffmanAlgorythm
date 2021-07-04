@@ -1,19 +1,17 @@
-package GUI;
-
-class Node1 {
+class Node {
 
     char letter;
     int number;
 
-    Node1 leftChild;
-    Node1 rightChild;
+    Node leftChild;
+    Node rightChild;
 
-    public Node1(char letter, int number) {
+    public Node(char letter, int number) {
         this.letter = letter;
         this.number = number;
     }
 
-    public Node1(Node1 leftChild, Node1 rightChild) {
+    public Node(Node leftChild, Node rightChild) {
         this.leftChild = leftChild;
         this.rightChild = rightChild;
         this.number = rightChild.number + leftChild.number;
