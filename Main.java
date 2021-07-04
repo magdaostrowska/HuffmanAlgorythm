@@ -1,5 +1,3 @@
-package GUI;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -32,7 +30,7 @@ public class Main {
             letter = tab[0].charAt(0);
             number = Integer.parseInt(tab[1]);
 
-            heap.treeTab[heap.counter] = new Tree(letter,number); // counter = 0 na początku
+            heap.treeTab[heap.counter] = new Tree(letter,number);
             heap.counter++;
             heap.up(heap.counter-1);
         }
