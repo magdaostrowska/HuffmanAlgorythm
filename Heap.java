@@ -1,5 +1,3 @@
-package GUI;
-
 public class Heap {
     Tree[] treeTab;
     int counter = 0;
